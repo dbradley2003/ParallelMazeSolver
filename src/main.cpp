@@ -16,7 +16,7 @@
 
 int main(int argc, char* argv[])
 {
-	char inFileName[INPUT_NAME_SIZE] = "mazes/Maze20Kx20K_D.data";
+	char inFileName[INPUT_NAME_SIZE] = "mazes/Maze100x100.data";
 	std::cout << "Current working directory: " << std::filesystem::current_path() << std::endl;
 	Timer aTimer;
 	Timer bTimer;
